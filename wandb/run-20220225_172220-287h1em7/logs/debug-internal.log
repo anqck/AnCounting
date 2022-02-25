@@ -140,3 +140,135 @@
 2022-02-25 17:25:14,538 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
 2022-02-25 17:25:14,538 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
 2022-02-25 17:25:15,572 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:17,574 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:19,576 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:21,579 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:23,581 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:24,663 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:25:25,583 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:27,586 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:29,587 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:29,899 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:25:29,899 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:25:31,590 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:33,593 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:35,595 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:37,598 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:39,600 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:41,602 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:43,604 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:45,271 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:25:45,271 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:25:45,606 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:47,609 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:49,611 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:51,613 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:53,615 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:55,366 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:25:55,617 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:57,619 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:25:59,621 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:00,667 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:26:00,668 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:26:01,623 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:03,625 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:05,627 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:07,638 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:09,641 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:11,643 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:13,645 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:15,647 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:16,040 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:26:16,040 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:26:17,651 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:19,653 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:21,655 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:23,657 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:25,659 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:26,144 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:26:27,661 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:29,663 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:31,401 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:26:31,402 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:26:31,665 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:33,668 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:35,671 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:37,673 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:39,675 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:41,678 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:43,680 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:45,682 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:46,768 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:26:46,768 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:26:47,684 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:49,686 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:51,688 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:53,690 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:55,700 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:56,941 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:26:57,702 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:26:59,704 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:01,706 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:02,151 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:27:02,155 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:27:03,708 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:05,710 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:07,712 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:09,713 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:11,716 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:13,717 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:15,719 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:17,520 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:27:17,520 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:27:17,724 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:20,728 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:22,730 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:24,733 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:26,735 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:27,655 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:27:28,737 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:30,739 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:32,741 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:33,244 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:27:33,244 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:27:34,743 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:36,745 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:38,747 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:40,749 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:42,751 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:44,753 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:46,755 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:48,603 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:27:48,603 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:27:48,757 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:50,759 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:52,761 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:54,763 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:56,765 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:27:58,362 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
+2022-02-25 17:27:58,767 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:00,245 DEBUG   SenderThread:21089 [sender.py:send():235] send: history
+2022-02-25 17:28:00,246 DEBUG   SenderThread:21089 [sender.py:send():235] send: summary
+2022-02-25 17:28:00,250 INFO    SenderThread:21089 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-25 17:28:00,769 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:00,769 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/wandb-summary.json
+2022-02-25 17:28:01,770 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:02,771 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:03,977 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:28:03,978 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:28:04,774 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:06,776 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:08,778 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:10,780 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:12,783 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:14,785 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:16,788 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:18,791 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:19,419 DEBUG   HandlerThread:21089 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-25 17:28:19,420 DEBUG   SenderThread:21089 [sender.py:send_request():249] send_request: stop_status
+2022-02-25 17:28:20,794 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:22,796 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:24,798 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:26,801 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:28,803 INFO    Thread-8  :21089 [dir_watcher.py:_on_file_modified():230] file/dir modified: /host/WorkSpaces/anqck/Counting/AnCounting/wandb/run-20220225_172220-287h1em7/files/output.log
+2022-02-25 17:28:29,073 DEBUG   SenderThread:21089 [sender.py:send():235] send: stats
