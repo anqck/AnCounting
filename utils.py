@@ -2,6 +2,19 @@ import math
 import torch, torchvision
 import torch.nn as nn
 import torch.nn.functional as F
+import random
+import numpy as np
+
+def set_random_seed(seed: int) -> None:
+    """
+    Set random seed for package random, numpy and pytorch
+    """
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 def extract_features(feature_model, image, _boxes,feat_map_keys=['map3','map4'], exemplar_scales=[0.9, 1.1]):
     # print(image.shape, _boxes.shape)

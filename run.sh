@@ -1,0 +1,1 @@
+python train.py --gpu_id 5 --batch_size 16 --output_dir /host/WorkSpaces/anqck/Counting/AnCounting/output/2 --wandb --seed 2021

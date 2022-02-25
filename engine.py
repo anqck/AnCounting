@@ -59,9 +59,9 @@ def train_one_epoch(regressor: torch.nn.Module, backbone: torch.nn.Module, crite
         pbar.set_description('actual-predicted: {:6.1f}, {:6.1f}, error: {:6.1f}'.format( gt_cnt[0], pred_cnt[0], abs(pred_cnt[0] - gt_cnt[0])))
         # print('actual-predicted: {:6.1f}, {:6.1f}, error: {:6.1f}'.format( gt_cnt, pred_cnt, abs(pred_cnt - gt_cnt)))
 
-    train_loss = train_loss / len(data_loader)
-    train_mae = (train_mae / len(data_loader))
-    train_rmse = (train_rmse / len(data_loader))**0.5
+    train_loss = train_loss / len(data_loader.dataset)
+    train_mae = (train_mae / len(data_loader.dataset))
+    train_rmse = (train_rmse / len(data_loader.dataset))**0.5
     return train_loss,train_mae,train_rmse
 
 def eval(args, regressor: torch.nn.Module, backbone: torch.nn.Module, data_loader: Iterable, device: torch.device):

@@ -1,0 +1,77 @@
+  0%|                                                                                                                                                                     | 0/229 [00:00<?, ?it/s]/root/anaconda3/envs/counting/lib/python3.7/site-packages/torch/nn/functional.py:2506: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+actual-predicted:   14.0,    6.8, error:    7.2:  49%|███████████████████████████████████████████████████▊                                                      | 112/229 [02:07<02:13,  1.14s/it]
+Traceback (most recent call last):
+  File "train.py", line 150, in <module>
+    main(args)
+  File "train.py", line 116, in main
+    train_loss,train_mae,train_rmse = train_one_epoch(regressor,resnet50_conv, criterion, data_loader_train, optimizer, device, epoch)
+  File "/host/WorkSpaces/anqck/Counting/AnCounting/engine.py", line 30, in train_one_epoch
+    features = extract_features(backbone, samples, boxes)
+  File "/host/WorkSpaces/anqck/Counting/AnCounting/utils.py", line 55, in extract_features
+    max_h = math.ceil(max(box_hs))
+  File "/root/anaconda3/envs/counting/lib/python3.7/site-packages/torch/tensor.py", line 462, in <lambda>
+    return iter(imap(lambda i: self[i], range(self.size(0))))
+KeyboardInterrupt

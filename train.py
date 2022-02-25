@@ -12,13 +12,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 from dataset import build_dataset
 from model import Resnet50FPN, CountRegressor
-from utils import weights_normal_init
+from utils import weights_normal_init, set_random_seed
 from engine import train_one_epoch, eval
 
 import wandb
 
-
-wandb.init(project="famnet", entity="anqck", tags=["AnCounting"])
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Set parameters for training AnNet', add_help=False)
@@ -52,16 +50,26 @@ def get_args_parser():
                         help='frequency of evaluation, default setting is evaluating in every 5 epoch')
     parser.add_argument('--gpu_id', default=0, type=int, help='the gpu used for training')
 
+    parser.add_argument('--wandb', action='store_true', help='wandb')
+    
+
     return parser
 
 def main(args):
     os.environ["CUDA_VISIBLE_DEVICES"] = '{}'.format(args.gpu_id)
 
     print(args)
+
     # fix the seed for reproducibility
-    torch.manual_seed(args.seed)
-    np.random.seed(args.seed)
-    random.seed(args.seed)
+    set_random_seed(args.seed)
+    
+    
+    if args.wandb:
+        wandb.init(project="famnet", entity="anqck", tags=["AnCounting"])
+        wandb.define_metric("Val MAE", summary="min")
+        wandb.define_metric("Val RMSE", summary="min")
+        run_name = wandb.run.name
+        
 
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
@@ -84,8 +92,8 @@ def main(args):
     # data_loader_train = DataLoader(train_set, args.batch_size, drop_last=False, num_workers=args.num_workers)
 
     data_loader_train = DataLoader(train_set, args.batch_size, shuffle=True, num_workers=args.num_workers)
-
     # data_loader_train = DataLoader(train_set, batch_sampler=batch_sampler_train, num_workers=args.num_workers,collate_fn=collate_fn_data)
+
 
     data_loader_val = DataLoader(val_set, 1, sampler=sampler_val, \
                                 drop_last=False, num_workers=args.num_workers)
@@ -115,16 +123,18 @@ def main(args):
         if best_mae >= val_mae:
             best_mae = val_mae
             best_rmse = val_rmse
-            model_name = args.output_dir + '/' + "FamNet.pth"
+            model_name = args.output_dir + '/' + run_name + ".pth"
             torch.save(regressor.state_dict(), model_name)
+
         # # Log loss
-        wandb.log({"Epoch": epoch+1,
-                    "Avg. Epoch Loss:": stats[-1][0],
-                    "Train MAE": stats[-1][1],
-                    "Train RMSE": stats[-1][2],
-                    "Val MAE": stats[-1][3],
-                    "Val RMSE": stats[-1][4]
-                    })
+        if args.wandb:
+            wandb.log({"Epoch": epoch+1,
+                        "Avg. Epoch Loss:": stats[-1][0],
+                        "Train MAE": stats[-1][1],
+                        "Train RMSE": stats[-1][2],
+                        "Val MAE": stats[-1][3],
+                        "Val RMSE": stats[-1][4]
+                        })
 
         print("Epoch {}, Avg. Epoch Loss: {} Train MAE: {} Train RMSE: {} Val MAE: {} Val RMSE: {} Best Val MAE: {} Best Val RMSE: {} ".format(
               epoch+1,  stats[-1][0], stats[-1][1], stats[-1][2], stats[-1][3], stats[-1][4], best_mae, best_rmse))

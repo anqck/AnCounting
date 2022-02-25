@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.8.0-44-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.0",
+    "heartbeatAt": "2022-02-25T15:51:45.743457",
+    "startedAt": "2022-02-25T15:51:43.870560",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 8,
+    "cpu_count": 40,
+    "cuda": "10.1.243",
+    "args": [
+        "--gpu_id",
+        "4",
+        "--batch_size",
+        "16",
+        "--output_dir",
+        "/mmlabworkspace/WorkSpaces/anqck/Counting/output/1"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "gpu154-4029GPTRT2",
+    "username": "root",
+    "executable": "/root/anaconda3/envs/counting/bin/python"
+}
